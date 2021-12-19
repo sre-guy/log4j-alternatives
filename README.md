@@ -25,3 +25,9 @@ $ gradle run
 19/12/2021 08:47:52.252 Some message from minlog.
 19/12/2021 08:47:52.255 Reading file reading file: /tmp/blah, msg from minlog
 ```
+
+## Quick Observations
+
+- Logback is by far the most extensible and can be used for more complex logging needs. Note that it does rely on [slf4j](http://www.slf4j.org/), however.
+- Tinylog is extensible as well, but not to the same extent as Logback. It definitely removes a ton of logging overhead and follows a fairly minimalistic design.
+- Minlog is as simple as it gets, with sufficient logging capabilities for simple applications.
