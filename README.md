@@ -15,7 +15,7 @@ Capabilites and features for all these loggers are demonstrated via a simple "He
 Run the project with Gradle by running:
 
 ```console
-$ gradle run
+$ ./gradlew run
 
 > Task :app:run
 08:47:52.166 INFO  log4j.alternatives.Logback - This is an INFO level log message from Logback!
